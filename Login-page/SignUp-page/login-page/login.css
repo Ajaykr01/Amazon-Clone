@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 6rem;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-box {
+  border: 2px solid #b4abab;
+  border-radius: 5px;
+  height: 24rem;
+  width: 25rem;
+  padding: 25px;
+}
+
+.form-box a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.form-box h1 {
+  font-size: 28px;
+}
+
+.form-box p {
+  padding-top: 15px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.form-box p a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.form-box input {
+  height: 35px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.form-box input:hover {
+  box-shadow: 5px 5px 15px purple;
+}
+
+.form-box button {
+  height: 35px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #dada18;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form-box button a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.form-box button:hover {
+  background-color: yellow;
+}
+
+.form-box :nth-child(5) {
+  font-size: 14px;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+.form-box :nth-child(5) a {
+  color: blue;
+  text-decoration: none;
+}
+
+details {
+  margin-top: 15px;
+  color: blue;
+}
+
+details summary {
+  font-size: 13px;
+}
+
+details summary:hover {
+  color: orange;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+details a {
+  color: blue;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#shop {
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+}
+
+#shop:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.form-box :nth-child(8) {
+  padding-bottom: 5px;
+}
+
+.foot-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foot-panel fieldset {
+  width: 25rem;
+  height: 5rem;
+  border: none;
+  margin-top: 20px;
+}
+
+.foot-panel button {
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.foot-panel legend {
+  font-size: 15px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.btn a {
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0d4d4;
+  height: 5rem;
+}
+
+.foot a {
+  text-decoration: none;
+  margin: 10px;
+  color: blue;
+  font-size: 13px;
+}
+
+.foot a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.foot :nth-child(5) {
+  font-size: 13px;
+}

@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin: -15px;
+  width: 100%;
+}
+
+.logo img {
+  height: 6rem;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-box {
+  border: 2px solid #b4abab;
+  border-radius: 5px;
+  height: 34rem;
+  width: 25rem;
+  padding: 25px;
+}
+
+.form-box a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.form-box h1 {
+  font-size: 25px;
+}
+
+.form-box :nth-child(3) {
+  margin-top: 5px;
+}
+
+.para1 {
+  font-size: 13px;
+  padding-top: 5px;
+  display: flex;
+}
+
+.para1 span {
+  font-size: 15px;
+  color: #1ce080;
+}
+
+.para2 {
+  font-size: 13px;
+  padding-top: 15px;
+}
+
+.para3 {
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+.para4 {
+  font-size: 13px;
+}
+
+.para5 {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.para3 a,
+.para4 a,
+.para5 a {
+  color: blue;
+  text-decoration: none;
+}
+
+.form-box input {
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.form-box input:hover {
+  box-shadow: 5px 5px 15px purple;
+}
+
+.contact {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contact input {
+  width: 100%;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.contact select {
+  height: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-box button {
+  height: 2rem;
+  width: 100%;
+  background-color: #e0e00e;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.form-box button:hover {
+  background-color: yellow;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0d4d4;
+  height: 5rem;
+  margin-top: 40px;
+}
+
+.foot a {
+  text-decoration: none;
+  margin: 10px;
+  color: blue;
+  font-size: 13px;
+}
+
+.foot a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.foot :nth-child(5) {
+  font-size: 13px;
+  margin-top: 15px;
+}
